@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>Torre de Hanoi</title>
+</head>
+<body>
+    <header>
+        <h1>Torre de Hanoi</h1>
+    </header>
+    <main>
+        <div class = "rules">
+            <h2 class = "rules">Qual é o objetivo da Torre de Hanoi?</h2>
+            <p class = "rules"> A torre de Hanói constitui num jogo estratégico capaz de contribuir no desenvolvimento da memória, do planejamento e solução de problemas. Consiste de três pinos na posicao vertical , o primeiro pino contém discos com ordem crescente de diâmetro ( de cima para baixo ). O objetivo é passar todos os discos para o último pino com a ajuda do pino central respeitando as seguintes regras: </p>
+            <p class = "rules">1. Um disco menor não pode ser colocado sobre um disco maior;</p>
+            <p class = "rules">2. Somente um disco pode ser movido por vez;</p>
+            <p class = "rules"> Um esquema do jogo está representado abaixo, tente solucioná-lo!</p>
+            <br>
+        </div>
+        <div id = "container"></div>
+        <div id="button_discs">
+            <button class="btn">Reiniciar</button>
+            <select id="numberDiscs">
+                <option value="3">Use 3 discos</option>
+                <option value="4" selected>Use 4 discos</option>
+                <option value="5">Use 5 discos</option>
+                <option value="6">Use 6 discos</option>
+                <option value="7">Use 7 discos</option>
+                <option value="8">Use 8 discos</option>
+                <option value="9">Use 9 discos</option>
+              </select>
+        </div>
+    </main>
+    <footer>
+        <h3 class = "credits">Ricardo Oliveira e Thiago Trad - a Kenzie Academy Brasil</h3>
+    </footer>
+    <script src="hanoi.js"></script>
+</body>
+</html>
